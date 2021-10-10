@@ -41,7 +41,7 @@ function getInfoAnime(id) {
                 <h5 class="card-title text-body">Puntuación: ${infoAnime.rt_score}</h5>
                 <h5 class="card-title text-body">Fecha de Lanzamiento: ${infoAnime.release_date}</h5>
                 <p class="card-text texto">${infoAnime.description}</p>
-                <button type="button" class="btn btn-secondary" onclick="location.href='index.html'">Regresar</button>
+                <button type="button" class="btn btn-secondary" onclick="location.href='index'">Regresar</button>
                 </div>
                 </div>
                 `;
