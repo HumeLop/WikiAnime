@@ -1,7 +1,10 @@
-// if ('serviceWorker' in navigator) {
-//     console.log('Podemos Usarlor!');
-// }
 
+let url = window.location.href;
+let swLocation = '/WikiAnime/sw.js';
 if (navigator.serviceWorker) {
-    navigator.serviceWorker.register('/sw.js');     
+
+    if(url.includes('localhost')) {
+        swLocation = '/sw.js';
+    }
+    navigator.serviceWorker.register('swLocation');     
 }
