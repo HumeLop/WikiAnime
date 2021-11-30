@@ -3,7 +3,7 @@ importScripts('https://storage.googleapis.com/workbox-cdn/releases/6.2.0/workbox
 workbox.precaching.precacheAndRoute([
   'index.html',
   'js/app.js',
-  'img/icons',
+  'img/icons/*',
   'img/anime-away-face.svg',
   'img/Anime-icono.jpg',
 ]);
