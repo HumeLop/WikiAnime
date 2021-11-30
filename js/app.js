@@ -1,6 +1,6 @@
 
 let url = window.location.href;
-let swLocation = '/sw.js';
+let swLocation = '/WikiAnime/sw.js';
 if (navigator.serviceWorker) {
 
     if (url.includes('localhost')) {
